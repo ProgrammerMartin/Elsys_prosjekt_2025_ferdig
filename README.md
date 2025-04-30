@@ -1,15 +1,15 @@
 # Elsys_prosjekt_2025_ferdig
 Koder til prosjektet. Arduino-kode til ESP-en, og python-kode til datamaskinen.
 
-## Arduino-kode
+## Arduino-kode:
 - Arduino-koden er utviklet for å kjøre på en ESP32 Wroom 32D. 
 - Koden samler sensordata under opptak og sender disse til datamaskinen via WiFi-protokollen TCP etter opptaket er ferdig.
 
-## Python-kode
+## Python-kode:
 - Python-koden kjøres på datamaskinen og mottar sensordataene som sendes fra ESP32-en via WiFi-protokollen TCP. 
 - Python-scriptet lagrer dataene i csv-filer, preprosesserer de, og bruker matplotlib.animation til simulering av opptaket.
 
-### Konfigurasjon av kodene
+### Konfigurasjon av kodene:
 - Sett IP-adressen til datamaskinen i `host`-variabelen, i Arduino-koden (i filen `Arduino.ino`).
 - Endre variablene `ssid` og `password` til hhv. navn og passord for det valgte WiFi-nettverket, i Arduino-koden (i filen `wifi_config.cpp`).
 - Sett IP-adressen til ESP_en i `IP_ESP32`-variabelen, i Python-koden (i filen `tcpServer2.py`).
