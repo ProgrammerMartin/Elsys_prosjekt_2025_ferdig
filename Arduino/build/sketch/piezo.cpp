@@ -1,0 +1,12 @@
+#line 1 "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/piezo.cpp"
+#include "piezo.h"
+
+// Konstruktør
+PiezoSensor::PiezoSensor(uint8_t pin) : piezoPin(pin) {}
+
+// Medlemsfunksjon som leser piezo-verdi
+piezoDataType PiezoSensor::readPiezo(){
+    int value = analogRead(this->piezoPin);
+    piezoDataType dataInStruct{value}; // Setter timestampen i piezo sampling tasken
+    return dataInStruct;
+}

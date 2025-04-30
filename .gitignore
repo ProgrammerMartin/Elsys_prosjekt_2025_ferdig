@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+
+# Arduino-kompilerte filer
+*.hex
+*.elf
+*.eep
+*.ino.cpp
+*.bin
+*.map
+
+# Ignorer macOS systemfiler
+.DS_Store

@@ -1,0 +1,18 @@
+Nyttnytt: Fjernet wifi-greier som ikke brukes lenger (udp-ting og ulike tasks, nå som vi kun har en stor sending). Ting sampler mye oftere nå, piezo-sampler på nesten 1kHz.
+
+
+PROBLEM:
+    Etter 2-4 ish runder med recordiner og sendinger har den tydeligvis mistet connection for mpu-sending og FFT-sending(??).
+    I blant klarer ikke stopNowTask å suspende alle taskene ordentlig, klarer da stort sett bare å suspende task1, så kan være problem med mpu6050-tasken.
+
+Nytt:
+    Bruker nå ISR til mikrofonsampling for å ikke blokkere andre tasks
+    Alle taskene har vTaskSuspend(NULL) helt i starten for å vente med å ta over til setup() er kjørt ferdig.
+    Resumerer så taskene på slutten av setup(), med en delay etter vTaskSuspen(NULL) i hver task slik at ingen skal begynne før alle taskene er resumert.
+
+
+Viktig:
+    Velg micPin = 32 og piezoPin1 = 35
+
+Endre:
+    Legg til noe som håndterer hvis akselerasjons-rådataen er eksakt 0. Start noe på nytt elns.

@@ -1,0 +1,187 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/cores/esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/variants/esp32da"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/src"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "Adafruit_MPU6050.h",
+    "Includepath": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_MPU6050"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "Adafruit_BusIO_Register.h",
+    "Includepath": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_BusIO"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "Network.h",
+    "Includepath": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "arduinoFFT.h",
+    "Includepath": "/Users/martinflataker/Documents/Arduino/libraries/arduinoFFT/src"
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/Prosjekt_27_april_kl_15.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/gyAc.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/piezo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/build/sketch/wifi_config.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Wire/src/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_MPU6050/Adafruit_MPU6050.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_GenericDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/AP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/STA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/WiFi/src/WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src/NetworkClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src/NetworkEvents.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src/NetworkInterface.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src/NetworkManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src/NetworkServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Library/Arduino15/packages/esp32/hardware/esp32/3.2.0/libraries/Network/src/NetworkUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/martinflataker/Documents/Arduino/libraries/arduinoFFT/src/arduinoFFT.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

@@ -1,0 +1,18 @@
+Dato: 23. april
+Kl: 9
+Tilhørende Arduino-fil: "Prosjekt_23_april_kl_9.ino" i mappe med samme navn (uten ino)
+
+
+Viktig å huske:
+    Sjekk at pc og esp er koblet til elsys11-nettet.
+    Sjekk at pc-ens IP-adresse er den som står i Arduino-koden.
+    Sjekk at esp-ens IP-adresse er samme som variabelen ESP_IP i filen udpSocket.py her.
+    Når programmet starter må gyroskopet være flatt på bordet.
+    Sjekk at akselerasjonene mottatt raw er nært 0, 0 og 9.81 ved start
+    Sjekk ved å rotere 90 grader opp at retningsvektoren i plottet nede til høyre peker nøyaktig rett opp, dette har mye å si(!!!)
+
+
+Ting å forbedre/teste:
+    Vurder å sett alt som er inne i if-blokken i updateFrame(), i en egen funksjon/fil
+    Prøv senere å bruk et lavpass butterworth filter på hele adata(?), bruk scipy
+    Legg til flere unntakshåndteringer og slikt

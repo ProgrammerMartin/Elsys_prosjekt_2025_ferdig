@@ -1,0 +1,19 @@
+#line 1 "/Users/martinflataker/Desktop/Prog_Semester_4/Elsys_semester_4_samlet/27_april/Arduino/Prosjekt_27_april_kl_15/.vscode/arduino.json"
+{
+  "sketch": "testfisk_organisert_7_april_copy.ino",
+  "port": "/dev/tty.usbserial-210",
+  "configuration": "UploadSpeed=115200,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,LoopCore=1,EventsCore=1,EraseFlash=none",
+  "output": "build",
+  "board": "esp32:esp32:esp32da",
+  "programmer": "Esptool",
+  "useProgrammer": false,
+  "configurationRequired": true,
+  "monitorPortSettings": {
+    "port": "/dev/tty.usbserial-210",
+    "baudRate": 115200,
+    "lineEnding": "\r\n",
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": "one"
+  }
+}
